@@ -1,5 +1,5 @@
 FROM openjdk:8u191-jre-alpine
-LABEL maintainer "yoyama"
+LABEL maintainer "youy"
 
 ENV DIGDAG_VERSION 0.9.36
 WORKDIR /src

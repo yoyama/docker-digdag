@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   digdag_server:
-    image: yoyama/digdag:latest
+    image: youy/digdag:latest
     ports:
       - "65432:65432"
       - "9010:9010"
