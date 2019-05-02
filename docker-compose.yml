@@ -11,7 +11,7 @@ services:
       - .:/src
       - .docker:/opt/etc/digdag
       - ./logs:/opt/digdag/logs
-    command: ["server", "-c", "/opt/etc/digdag/server.properties", "-L", "/opt/digdag/logs/server.log"]
+    command: ["server", "-c", "/opt/etc/digdag/server.properties", "-l", "debug", "-L", "/opt/digdag/logs/server.log"]
   postgres:
     image: postgres:9.5
     ports:
